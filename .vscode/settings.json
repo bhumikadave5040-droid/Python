@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./inhertance/Multilevel"
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}
