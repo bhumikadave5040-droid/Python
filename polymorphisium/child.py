@@ -1,0 +1,14 @@
+from parent import p
+class c(p):
+    #method override
+    #def sound(self):
+     #   print("parent sound")
+
+    def abc(self):
+        print("child abc")
+
+    def add(self,a,b,c):
+        return a+b+c
+
+    def add_parent(self,a,b):
+        return super().add(a,b)
